@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<link rel="stylesheet" href="./css/user_reg.css">
+ </head>
+ <body>
+    <div>
+		  <a href="" class='.'>返回首页</a>
+		</div>
+    <div id='reg'>
+		 
+		  <legend class='fontcolor'>注册</legend>
+		  <p> 
+			 <input type="text" id='uname' class='reg_padding' placeholder='请输入用户名' onblur='checkUname()' >
+			 <span id='showUname'></span>
+			</p>
+			<p> 
+			 <input type="possword"  id='upwd' class='reg_padding' placeholder='请输入密码' onblur='checkUpwd()'>
+			 <span id='showPwd' ></span>
+			</p>
+			<p> 
+			 <input type="possword"  id='cpwd' class='reg_padding' placeholder='请确认密码' onblur='checkPwd()'>
+			</p>
+			<p> 
+			 <input type="text" id='phone' class='reg_padding' placeholder='请输入手机号' onblur='checkPhone()'>
+			 <span id='showPhone'></span>
+			</p>
+			<p>
+			 <input type="checkbox" id='padding' onclick=''><span>注册代表同意</span>
+			</p>
+			<p>
+			 <input type="button" value='注册账户' onclick='register()' id='btt_reg'>
+			</p>
+			
+		</div>
+		<script src='./js/common.js'></script>
+		<script src='./js/reg.js'></script>
+ </body>
+</html>
